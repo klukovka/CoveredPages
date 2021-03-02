@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: White;
+}
+
+body{
+    min-height: 100%;
+    background-color: #2b542c;
+    background-image: url("https://kidpassage.com/images/publications/afiny-noyabre-otdyh-pogoda/cover_original.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 0;
+    color: rgb(0, 0, 0);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: -1;
+}
+
+#navigation-bar-container {
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+    #navigation-bar-container {
+    width: 50%;
+    }
+}
+
+#center-content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer-content{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#info{
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
